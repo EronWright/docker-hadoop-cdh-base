@@ -2,8 +2,8 @@ FROM ingensi/oracle-jdk:centos6-7u65
 MAINTAINER Ingensi labs <contact@ingensi.com>
 
 # ORACLE JDK INSTALLED FROM RPM
-# ADD COMPATIBILITY TO CDH
-# TODO: update minor version to 67
+# ADD COMPATIBILITY TO CDH (according to the doc)
+# TODO: update minor version to 67 (see readme)
 RUN ln -s /usr/java/jdk1.7.0_65 /usr/java/jdk.1.7.0_65
 
 # GET CDH5 RPM AND INSTALL
